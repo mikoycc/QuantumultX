@@ -10,6 +10,20 @@ DOMAIN-SUFFIX,twitchcdn.net,Streaming
 DOMAIN-SUFFIX,twitch-ext.rootonline.de,Streaming
 
 # (Music)
+# > Spotify
+USER-AGENT,Spotify*,Streaming
+DOMAIN-SUFFIX,pscdn.co,Streaming
+DOMAIN-SUFFIX,scdn.co,Streaming
+DOMAIN-SUFFIX,spotify.com,Streaming
+DOMAIN-SUFFIX,spoti.fi,Streaming
+DOMAIN-KEYWORD,spotify.com,Streaming
+DOMAIN-KEYWORD,-spotify-com,Streaming
+# > YouTubeMusic
+HOST,music.youtube.com,Streaming
+USER-AGENT,*YouTubeMusic*,Streaming
+USER-AGENT,*com.google.ios.youtubemusic*,Streaming
+USER-AGENT,YouTubeMusic*,Streaming
+USER-AGENT,com.google.ios.youtubemusic*,Streaming
 # > Deezer
 USER-AGENT,Deezer*,Streaming
 DOMAIN-SUFFIX,deezer.com,Streaming
@@ -31,20 +45,20 @@ USER-AGENT,SoundCloud*,Streaming
 DOMAIN-SUFFIX,p-cdn.us,Streaming
 DOMAIN-SUFFIX,sndcdn.com,Streaming
 DOMAIN-SUFFIX,soundcloud.com,Streaming
-# > Spotify
-USER-AGENT,Spotify*,Streaming
-DOMAIN-SUFFIX,pscdn.co,Streaming
-DOMAIN-SUFFIX,scdn.co,Streaming
-DOMAIN-SUFFIX,spotify.com,Streaming
-DOMAIN-SUFFIX,spoti.fi,Streaming
-DOMAIN-KEYWORD,spotify.com,Streaming
-DOMAIN-KEYWORD,-spotify-com,Streaming
 # > TIDAL
 USER-AGENT,TIDAL*,Streaming
 DOMAIN-SUFFIX,tidal.com,Streaming
-# > YouTubeMusic
-USER-AGENT,com.google.ios.youtubemusic*,Streaming
-USER-AGENT,YouTubeMusic*,Streaming
+# > Apple music 
+HOST,aod-ssl.itunes.apple.com,Streaming
+HOST,aod.itunes.apple.com,Streaming
+HOST,audio-ssl.itunes.apple.com,Streaming
+HOST,audio.itunes.apple.com,Streaming
+HOST,mvod.itunes.apple.com,Streaming
+HOST,streamingaudio.itunes.apple.com,Streaming
+HOST-SUFFIX,applemusic.com,Streaming
+HOST-SUFFIX,blobstore.apple.com,Streaming
+HOST-SUFFIX,music.apple.com,Streaming
+USER-AGENT,Music*,Streaming
 
 # (Podcast)
 # > Himalaya
@@ -57,14 +71,29 @@ DOMAIN-SUFFIX,overcast.fm,Streaming
 # (Video)
 # > AbemaTV
 USER-AGENT,AbemaTV*,Streaming
-DOMAIN-SUFFIX,abema.io,Streaming
-DOMAIN-SUFFIX,abema.tv,Streaming
-DOMAIN-SUFFIX,abema-tv.com,Streaming
-DOMAIN-SUFFIX,ameba.jp,Streaming
-DOMAIN-SUFFIX,hayabusa.io,Streaming
-DOMAIN-SUFFIX,hayabusa.media,Streaming
-DOMAIN,api-abematv.bucketeer.jp,Streaming
-DOMAIN-KEYWORD,abematv.akamaized.net,Streaming
+HOST-SUFFIX,abema-tv.com,Streaming
+HOST-SUFFIX,abema.io,Streaming
+HOST-SUFFIX,abema.tv,Streaming
+HOST-SUFFIX,abematv.akamaized.net,Streaming
+HOST-SUFFIX,adx.promo,Streaming
+HOST-SUFFIX,ameba.jp,Streaming
+HOST-SUFFIX,amebame.com,Streaming
+HOST-SUFFIX,amebaownd.com,Streaming
+HOST-SUFFIX,amebaowndme.com,Streaming
+HOST-SUFFIX,ameblo.jp,Streaming
+HOST-SUFFIX,bucketeer.jp,Streaming
+HOST-SUFFIX,d1otoma47x30pg.cloudfront.net,Streaming
+HOST-SUFFIX,d2wy8f7a9ursnm.cloudfront.net,Streaming
+HOST-SUFFIX,dokusho-ojikan.jp,Streaming
+HOST-SUFFIX,ds-linear-abematv.akamaized.net,Streaming
+HOST-SUFFIX,ds-vod-abematv.akamaized.net,Streaming
+HOST-SUFFIX,hayabusa.dev,Streaming
+HOST-SUFFIX,hayabusa.io,Streaming
+HOST-SUFFIX,hayabusa.media,Streaming
+HOST-SUFFIX,linear-abematv.akamaized.net,Streaming
+HOST-SUFFIX,vod-abematv.akamaized.net,Streaming
+HOST-SUFFIX,winticket.jp,Streaming
+HOST-KEYWORD,abematv.akamaized.net,Streaming
 # > All 4
 USER-AGENT,All4*,Streaming
 DOMAIN-SUFFIX,c4assets.com,Streaming
@@ -87,14 +116,17 @@ DOMAIN,dmqdd6hw24ucf.cloudfront.net,Streaming
 DOMAIN,d22qjgkvxw22r6.cloudfront.net,Streaming
 DOMAIN,d1v5ir2lpwr8os.cloudfront.net,Streaming
 DOMAIN,d27xxe7juh1us6.cloudfront.net,Streaming
-# DOMAIN,www.amazon.com,Streaming
 DOMAIN-KEYWORD,avoddashs,Streaming
-# > Apple Music TV
-DOMAIN,tv.applemusic.com,Streaming
 # > Apple TV
-DOMAIN,linear.tv.apple.com,Streaming
-DOMAIN,play-edge.itunes.apple.com,Streaming
-DOMAIN,uts-api.itunes.apple.com,Streaming
+USER-AGENT,AppleTV*,Streaming
+USER-AGENT,com.apple.tv*,Streaming
+HOST,hls-amt.itunes.apple.com,Streaming
+HOST,hls.itunes.apple.com,Streaming
+HOST,np-edge.itunes.apple.com,Streaming
+HOST,play-edge.itunes.apple.com,Streaming
+HOST,tv.applemusic.com,Streaming
+HOST,uts-api.itunes.apple.com,Streaming
+HOST-SUFFIX,tv.apple.com,Streaming
 # > Bahamut
 USER-AGENT,Anime*,Streaming
 DOMAIN-SUFFIX,bahamut.com.tw,Streaming
@@ -109,12 +141,13 @@ DOMAIN-SUFFIX,bbci.co.uk,Streaming
 DOMAIN-KEYWORD,bbcfmt,Streaming
 DOMAIN-KEYWORD,uk-live,Streaming
 # > bilibili Intl
-DOMAIN-SUFFIX,biliintl.com,Streaming
-DOMAIN,apm-misaka.biliapi.net,Streaming
-DOMAIN,p.bstarstatic.com,Streaming
-DOMAIN,p-bstarstatic.akamaized.net,Streaming
-DOMAIN,upos-bstar-mirrorakam.akamaized.net,Streaming
-DOMAIN,upos-bstar1-mirrorakam.akamaized.net,Streaming
+HOST,apm-misaka.biliapi.net,Streaming
+HOST,p-bstarstatic.akamaized.net,Streaming
+HOST,p.bstarstatic.com,Streaming
+HOST,upos-bstar-mirrorakam.akamaized.net,Streaming
+HOST,upos-bstar1-mirrorakam.akamaized.net,Streaming
+HOST-SUFFIX,bilibili.tv,Streaming
+HOST-SUFFIX,biliintl.com,Streaming
 # > DAZN
 USER-AGENT,DAZN*,Streaming
 DOMAIN-SUFFIX,dazn.com,Streaming
@@ -296,16 +329,23 @@ USER-AGENT,TaiwanGood*,Streaming
 DOMAIN-SUFFIX,skyking.com.tw,Streaming
 DOMAIN,hamifans.emome.net,Streaming
 # > TikTok
+HOST,p16-tiktokcdn-com.akamaized.net,Streaming
+HOST-SUFFIX,byteoversea.com,Streaming
+HOST-SUFFIX,ibytedtos.com,Streaming
+HOST-SUFFIX,ibyteimg.com,Streaming
+HOST-SUFFIX,ipstatp.com,Streaming
+HOST-SUFFIX,isnssdk.com,Streaming
+HOST-SUFFIX,muscdn.com,Streaming
+HOST-SUFFIX,musical.ly,Streaming
+HOST-SUFFIX,sgpstatp.com,Streaming
+HOST-SUFFIX,snssdk.com,Streaming
+HOST-SUFFIX,tik-tokapi.com,Streaming
+HOST-SUFFIX,tiktok.com,Streaming
+HOST-SUFFIX,tiktokcdn.com,Streaming
+HOST-SUFFIX,tiktokv.com,Streaming
+HOST-KEYWORD,musical.ly,Streaming
+HOST-KEYWORD,tiktok,Streaming
 USER-AGENT,TikTok*,Streaming
-DOMAIN-SUFFIX,byteoversea.com,Streaming
-DOMAIN-SUFFIX,ibytedtos.com,Streaming
-DOMAIN-SUFFIX,muscdn.com,Streaming
-DOMAIN-SUFFIX,musical.ly,Streaming
-DOMAIN-SUFFIX,tiktok.com,Streaming
-DOMAIN-SUFFIX,tik-tokapi.com,Streaming
-DOMAIN-SUFFIX,tiktokcdn.com,Streaming
-DOMAIN-SUFFIX,tiktokv.com,Streaming
-DOMAIN-KEYWORD,tiktokcdn-,Streaming
 # > TVer
 USER-AGENT,TVer-Release*,Streaming
 DOMAIN-SUFFIX,tver.jp,Streaming

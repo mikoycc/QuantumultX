@@ -1,4 +1,7 @@
-# Privacy
+# Privacy,隐私保护
+# 2021-12-31
+# 原地址：https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/Guard/Privacy.list
+
 DOMAIN-SUFFIX,adjust.com,REJECT
 DOMAIN-SUFFIX,airpr.com,REJECT
 DOMAIN-SUFFIX,cr-nielsen.com,REJECT
@@ -47,7 +50,6 @@ DOMAIN-SUFFIX,woopra.com,REJECT
 DOMAIN-SUFFIX,wootric.com,REJECT
 DOMAIN-SUFFIX,wowanalytics.co.uk,REJECT
 DOMAIN-SUFFIX,zoomanalytics.co,REJECT
-
 DOMAIN-SUFFIX,ads.linkedin.com,REJECT
 DOMAIN,analytics.slashdotmedia.com,REJECT
 DOMAIN,zgsdk.zhugeio.com,REJECT

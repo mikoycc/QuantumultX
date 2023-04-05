@@ -1,74 +1,5 @@
 # Streaming Media
 
-# (Live)
-# > Twitch
-DOMAIN-SUFFIX,ext-twitch.tv,Streaming
-DOMAIN-SUFFIX,jtvnw.net,Streaming
-DOMAIN-SUFFIX,ttvnw.net,Streaming
-DOMAIN-SUFFIX,twitch.tv,Streaming
-DOMAIN-SUFFIX,twitchcdn.net,Streaming
-DOMAIN-SUFFIX,twitch-ext.rootonline.de,Streaming
-
-# (Music)
-# > Spotify
-USER-AGENT,Spotify*,Streaming
-DOMAIN-SUFFIX,pscdn.co,Streaming
-DOMAIN-SUFFIX,scdn.co,Streaming
-DOMAIN-SUFFIX,spotify.com,Streaming
-DOMAIN-SUFFIX,spoti.fi,Streaming
-DOMAIN-KEYWORD,spotify.com,Streaming
-DOMAIN-KEYWORD,-spotify-com,Streaming
-# > YouTubeMusic
-HOST,music.youtube.com,Streaming
-USER-AGENT,*YouTubeMusic*,Streaming
-USER-AGENT,*com.google.ios.youtubemusic*,Streaming
-USER-AGENT,YouTubeMusic*,Streaming
-USER-AGENT,com.google.ios.youtubemusic*,Streaming
-# > Deezer
-USER-AGENT,Deezer*,Streaming
-DOMAIN-SUFFIX,deezer.com,Streaming
-DOMAIN-SUFFIX,dzcdn.net,Streaming
-# > JOOX
-USER-AGENT,JOOX*,Streaming
-USER-AGENT,WeMusic*,Streaming
-DOMAIN-SUFFIX,joox.com,Streaming
-DOMAIN-KEYWORD,jooxweb-api,Streaming
-# > KKBOX
-DOMAIN-SUFFIX,kkbox.com,Streaming
-DOMAIN-SUFFIX,kkbox.com.tw,Streaming
-DOMAIN-SUFFIX,kfs.io,Streaming
-# > Pandora
-USER-AGENT,Pandora*,Streaming
-DOMAIN-SUFFIX,pandora.com,Streaming
-# > SoundCloud
-USER-AGENT,SoundCloud*,Streaming
-DOMAIN-SUFFIX,p-cdn.us,Streaming
-DOMAIN-SUFFIX,sndcdn.com,Streaming
-DOMAIN-SUFFIX,soundcloud.com,Streaming
-# > TIDAL
-USER-AGENT,TIDAL*,Streaming
-DOMAIN-SUFFIX,tidal.com,Streaming
-# > Apple music 
-HOST,aod-ssl.itunes.apple.com,Streaming
-HOST,aod.itunes.apple.com,Streaming
-HOST,audio-ssl.itunes.apple.com,Streaming
-HOST,audio.itunes.apple.com,Streaming
-HOST,mvod.itunes.apple.com,Streaming
-HOST,streamingaudio.itunes.apple.com,Streaming
-HOST-SUFFIX,applemusic.com,Streaming
-HOST-SUFFIX,blobstore.apple.com,Streaming
-HOST-SUFFIX,music.apple.com,Streaming
-USER-AGENT,Music*,Streaming
-
-# (Podcast)
-# > Himalaya
-USER-AGENT,Himalaya*,Streaming
-DOMAIN-SUFFIX,himalaya.com,Streaming
-# > Overcast
-USER-AGENT,Overcast*,Streaming
-DOMAIN-SUFFIX,overcast.fm,Streaming
-
-# (Video)
 # > AbemaTV
 USER-AGENT,AbemaTV*,Streaming
 HOST-SUFFIX,abema-tv.com,Streaming
@@ -138,6 +69,17 @@ HOST,play-edge.itunes.apple.com,Streaming
 HOST,tv.applemusic.com,Streaming
 HOST,uts-api.itunes.apple.com,Streaming
 HOST-SUFFIX,tv.apple.com,Streaming
+# > Apple music 
+HOST,aod-ssl.itunes.apple.com,Streaming
+HOST,aod.itunes.apple.com,Streaming
+HOST,audio-ssl.itunes.apple.com,Streaming
+HOST,audio.itunes.apple.com,Streaming
+HOST,mvod.itunes.apple.com,Streaming
+HOST,streamingaudio.itunes.apple.com,Streaming
+HOST-SUFFIX,applemusic.com,Streaming
+HOST-SUFFIX,blobstore.apple.com,Streaming
+HOST-SUFFIX,music.apple.com,Streaming
+USER-AGENT,Music*,Streaming
 # > Bahamut
 USER-AGENT,Anime*,Streaming
 DOMAIN-SUFFIX,bahamut.com.tw,Streaming
@@ -190,11 +132,18 @@ DOMAIN,cdn.registerdisney.go.com,Streaming
 DOMAIN-SUFFIX,dmm.co.jp,Streaming
 DOMAIN-SUFFIX,dmm.com,Streaming
 DOMAIN-SUFFIX,dmm-extension.com,Streaming
+# > Deezer
+USER-AGENT,Deezer*,Streaming
+DOMAIN-SUFFIX,deezer.com,Streaming
+DOMAIN-SUFFIX,dzcdn.net,Streaming
 # > encoreTVB
 USER-AGENT,encoreTVB*,Streaming
 DOMAIN-SUFFIX,encoretvb.com,Streaming
 DOMAIN,edge.api.brightcove.com,Streaming
 DOMAIN,bcbolt446c5271-a.akamaihd.net,Streaming
+# > Himalaya
+USER-AGENT,Himalaya*,Streaming
+DOMAIN-SUFFIX,himalaya.com,Streaming
 # > Hami Video
 DOMAIN-SUFFIX,ott.hinet.net,Streaming
 DOMAIN-SUFFIX,hamivideo.hinet.net,Streaming
@@ -265,6 +214,15 @@ IP-CIDR,210.71.227.200/32,Streaming
 IP-CIDR,210.71.227.202/32,Streaming
 IP-CIDR,210.201.32.8/32,Streaming
 IP-CIDR,210.201.32.11/32,Streaming
+# > JOOX
+USER-AGENT,JOOX*,Streaming
+USER-AGENT,WeMusic*,Streaming
+DOMAIN-SUFFIX,joox.com,Streaming
+DOMAIN-KEYWORD,jooxweb-api,Streaming
+# > KKBOX
+DOMAIN-SUFFIX,kkbox.com,Streaming
+DOMAIN-SUFFIX,kkbox.com.tw,Streaming
+DOMAIN-SUFFIX,kfs.io,Streaming
 # > KKTV
 USER-AGENT,KKTV*,Streaming
 USER-AGENT,com.kktv.ios.kktv*,Streaming
@@ -313,6 +271,9 @@ DOMAIN-SUFFIX,nimg.jp,Streaming
 # > Now E
 DOMAIN-SUFFIX,nowe.com,Streaming
 DOMAIN-SUFFIX,nowestatic.com,Streaming
+# > Overcast
+USER-AGENT,Overcast*,Streaming
+DOMAIN-SUFFIX,overcast.fm,Streaming
 # > Paramount+
 USER-AGENT,PPlus*,Streaming
 DOMAIN-SUFFIX,cbsi.com,Streaming
@@ -335,6 +296,29 @@ DOMAIN-SUFFIX,phncdn.com,Streaming
 DOMAIN-SUFFIX,phprcdn.com,Streaming
 DOMAIN-SUFFIX,pornhub.com,Streaming
 DOMAIN-SUFFIX,pornhubpremium.com,Streaming
+# > Pandora
+USER-AGENT,Pandora*,Streaming
+DOMAIN-SUFFIX,pandora.com,Streaming
+# > SoundCloud
+USER-AGENT,SoundCloud*,Streaming
+DOMAIN-SUFFIX,p-cdn.us,Streaming
+DOMAIN-SUFFIX,sndcdn.com,Streaming
+DOMAIN-SUFFIX,soundcloud.com,Streaming
+# > Spotify
+USER-AGENT,Spotify*,Streaming
+DOMAIN-SUFFIX,pscdn.co,Streaming
+DOMAIN-SUFFIX,scdn.co,Streaming
+DOMAIN-SUFFIX,spotify.com,Streaming
+DOMAIN-SUFFIX,spoti.fi,Streaming
+DOMAIN-KEYWORD,spotify.com,Streaming
+DOMAIN-KEYWORD,-spotify-com,Streaming
+# > Twitch
+DOMAIN-SUFFIX,ext-twitch.tv,Streaming
+DOMAIN-SUFFIX,jtvnw.net,Streaming
+DOMAIN-SUFFIX,ttvnw.net,Streaming
+DOMAIN-SUFFIX,twitch.tv,Streaming
+DOMAIN-SUFFIX,twitchcdn.net,Streaming
+DOMAIN-SUFFIX,twitch-ext.rootonline.de,Streaming
 # > 台湾好
 USER-AGENT,TaiwanGood*,Streaming
 DOMAIN-SUFFIX,skyking.com.tw,Streaming
@@ -357,6 +341,9 @@ HOST-SUFFIX,tiktokv.com,Streaming
 HOST-KEYWORD,musical.ly,Streaming
 HOST-KEYWORD,tiktok,Streaming
 USER-AGENT,TikTok*,Streaming
+# > TIDAL
+USER-AGENT,TIDAL*,Streaming
+DOMAIN-SUFFIX,tidal.com,Streaming
 # > TVer
 USER-AGENT,TVer-Release*,Streaming
 DOMAIN-SUFFIX,tver.jp,Streaming
@@ -389,3 +376,9 @@ DOMAIN-SUFFIX,yt.be,Streaming
 DOMAIN-SUFFIX,ytimg.com,Streaming
 DOMAIN,youtubei.googleapis.com,Streaming
 DOMAIN,yt3.ggpht.com,Streaming
+# > YouTubeMusic
+HOST,music.youtube.com,Streaming
+USER-AGENT,*YouTubeMusic*,Streaming
+USER-AGENT,*com.google.ios.youtubemusic*,Streaming
+USER-AGENT,YouTubeMusic*,Streaming
+USER-AGENT,com.google.ios.youtubemusic*,Streaming

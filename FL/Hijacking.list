@@ -1,5 +1,5 @@
-# Hijacking
-# 2023-02-15 23:43:24
+# Hijacking,运营商劫持
+# 2023-02-15
 # 原地址：https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Hijacking/Hijacking.list
 
 HOST,geo2.adobe.com,REJECT

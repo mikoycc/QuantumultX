@@ -94,29 +94,40 @@ HOST-SUFFIX,linear-abematv.akamaized.net,Streaming
 HOST-SUFFIX,vod-abematv.akamaized.net,Streaming
 HOST-SUFFIX,winticket.jp,Streaming
 HOST-KEYWORD,abematv.akamaized.net,Streaming
+# > AFP
+host-suffix,afp.com,Streaming
+host-suffix,afpforum.com,Streaming
 # > All 4
 USER-AGENT,All4*,Streaming
 DOMAIN-SUFFIX,c4assets.com,Streaming
 DOMAIN-SUFFIX,channel4.com,Streaming
 # > Amazon Prime Video
+HOST,d1v5ir2lpwr8os.cloudfront.net,Streaming
+HOST,d22qjgkvxw22r6.cloudfront.net,Streaming
+HOST,d25xi40x97liuc.cloudfront.net,Streaming
+HOST,d27xxe7juh1us6.cloudfront.net,Streaming
+HOST,dmqdd6hw24ucf.cloudfront.net,Streaming
+HOST-SUFFIX,aiv-cdn.net,Streaming
+HOST-SUFFIX,aiv-delivery.net,Streaming
+HOST-SUFFIX,amazonprimevideo.cn,Streaming
+HOST-SUFFIX,amazonprimevideo.com.cn,Streaming
+HOST-SUFFIX,amazonprimevideos.com,Streaming
+HOST-SUFFIX,amazonvideo.cc,Streaming
+HOST-SUFFIX,amazonvideo.com,Streaming
+HOST-SUFFIX,atv-ps.amazon.com,Streaming
+HOST-SUFFIX,avodmp4s3ww-a.akamaihd.net,Streaming
+HOST-SUFFIX,fls-na.amazon.com,Streaming
+HOST-SUFFIX,llnwd.net,Streaming
+HOST-SUFFIX,media-amazon.com,Streaming
+HOST-SUFFIX,prime-video.com,Streaming
+HOST-SUFFIX,primevideo.cc,Streaming
+HOST-SUFFIX,primevideo.com,Streaming
+HOST-SUFFIX,primevideo.info,Streaming
+HOST-SUFFIX,primevideo.org,Streaming
+HOST-SUFFIX,primevideo.tv,Streaming
+HOST-KEYWORD,avoddashs,Streaming
 USER-AGENT,InstantVideo.US*,Streaming
 USER-AGENT,Prime%20Video*,Streaming
-DOMAIN-SUFFIX,aiv-cdn.net,Streaming
-DOMAIN-SUFFIX,aiv-delivery.net,Streaming
-DOMAIN-SUFFIX,amazonvideo.com,Streaming
-DOMAIN-SUFFIX,media-amazon.com,Streaming
-DOMAIN-SUFFIX,primevideo.com,Streaming
-DOMAIN-SUFFIX,pv-cdn.net,Streaming
-DOMAIN,atv-ps.amazon.com,Streaming
-DOMAIN,fls-na.amazon.com,Streaming
-DOMAIN,avodmp4s3ww-a.akamaihd.net,Streaming
-DOMAIN,d25xi40x97liuc.cloudfront.net,Streaming
-DOMAIN,dmqdd6hw24ucf.cloudfront.net,Streaming
-DOMAIN,dmqdd6hw24ucf.cloudfront.net,Streaming
-DOMAIN,d22qjgkvxw22r6.cloudfront.net,Streaming
-DOMAIN,d1v5ir2lpwr8os.cloudfront.net,Streaming
-DOMAIN,d27xxe7juh1us6.cloudfront.net,Streaming
-DOMAIN-KEYWORD,avoddashs,Streaming
 # > Apple TV
 USER-AGENT,AppleTV*,Streaming
 USER-AGENT,com.apple.tv*,Streaming

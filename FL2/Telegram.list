@@ -1,4 +1,7 @@
-# Telegram 2023-02-19
+# Telegram
+# 2023-02-19
+# 原地址：https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Telegram/Telegram.list
+
 HOST-SUFFIX,comments.app,Telegram
 HOST-SUFFIX,contest.com,Telegram
 HOST-SUFFIX,graph.org,Telegram

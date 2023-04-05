@@ -87,12 +87,40 @@ DOMAIN-SUFFIX,gamer.com.tw,Streaming
 DOMAIN,bahamut.akamaized.net,Streaming
 DOMAIN,gamer-cds.cdn.hinet.net,Streaming
 DOMAIN,gamer2-cds.cdn.hinet.net,Streaming
-# > BBC iPlayer
-USER-AGENT,BBCiPlayer*,Streaming
-DOMAIN-SUFFIX,bbc.co.uk,Streaming
-DOMAIN-SUFFIX,bbci.co.uk,Streaming
-DOMAIN-KEYWORD,bbcfmt,Streaming
-DOMAIN-KEYWORD,uk-live,Streaming
+# > BBC 
+user-agent,BBCiPlayer*,Streaming
+host-suffix,bbc,Streaming
+host-suffix,bbc.co,Streaming
+host-suffix,bbc.co.uk,Streaming
+host-suffix,bbc.com,Streaming
+host-suffix,bbc.in,Streaming
+host-suffix,bbc.net.uk,Streaming
+host-suffix,bbcchinese.com,Streaming
+host-suffix,bbcfmt.hs.llnwd.net,Streaming
+host-suffix,bbcfmt.s.llnwi.net,Streaming
+host-suffix,bbci.co,Streaming
+host-suffix,bbci.co.uk,Streaming
+host-suffix,bbcmedia.co.uk,Streaming
+host-suffix,bbcpersian.com,Streaming
+host-suffix,bbcverticals.com,Streaming
+host-suffix,bidi.net.uk,Streaming
+host,aod-dash-uk-live.akamaized.net,Streaming
+host,aod-hls-uk-live.akamaized.net,Streaming
+host,as-dash-uk-live.akamaized.net,Streaming
+host,as-hls-uk-live.akamaized.net,Streaming
+host,vod-dash-uk-live.akamaized.net,Streaming
+host,vod-dash-uk-live.bbcfmt.hs.llnwd.net,Streaming
+host,vod-dash-ww-live.akamaized.net,Streaming
+host,vod-dash-ww-live.bbcfmt.s.llnwi.net,Streaming
+host,vod-hls-uk-live.akamaized.net,Streaming
+host,vod-sub-uk-live.akamaized.net,Streaming
+host,vod-thumb-uk-live.akamaized.net,Streaming
+host,vod-thumb-uk-live.bbcfmt.hs.llnwd.net,Streaming
+host,vod-thumb-ww-live.akamaized.net,Streaming
+host,vod-thumb-ww-live.bbcfmt.s.llnwi.net,Streaming
+host,vs-cmaf-push-uk-live.akamaized.net,Streaming
+host-keyword,bbcfmt,Streaming
+host-keyword,uk-live,Streaming
 # > bilibili Intl
 HOST,apm-misaka.biliapi.net,Streaming
 HOST,p-bstarstatic.akamaized.net,Streaming

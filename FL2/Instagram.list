@@ -1,3 +1,8 @@
+# Instagram
+# 2023-02-15
+# 原地址：https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Instagram/Instagram.list
+
+
 HOST-SUFFIX,achat-followers-instagram.com,Instagram
 HOST-SUFFIX,acheter-followers-instagram.com,Instagram
 HOST-SUFFIX,acheterdesfollowersinstagram.com,Instagram

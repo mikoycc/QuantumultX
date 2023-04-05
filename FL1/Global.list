@@ -185,6 +185,7 @@ DOMAIN-SUFFIX,zophar.net,PROXY
 DOMAIN-SUFFIX,zyxel.com,PROXY
 DOMAIN,lab.skk.moe,PROXY
 DOMAIN,ocsp.int-x3.letsencrypt.org,PROXY
+
 # > Akamai
 DOMAIN,a248.e.akamai.net,PROXY
 DOMAIN,a771.dscq.akamai.net,PROXY
@@ -240,8 +241,6 @@ DOMAIN-SUFFIX,zynamics.com,PROXY
 DOMAIN-KEYWORD,google,PROXY
 DOMAIN-KEYWORD,.blogspot.,PROXY
 DOMAIN-SUFFIX,goog,PROXY
-# > Apple
-DOMAIN,testflight.apple.com,PROXY
 # > Automattic
 DOMAIN-SUFFIX,gravatar.com,PROXY
 DOMAIN-SUFFIX,tumblr.com,PROXY
@@ -466,6 +465,10 @@ DOMAIN,wego.here.com,PROXY
 # > Alphabet
 DOMAIN-SUFFIX,go.dev,PROXY
 DOMAIN-SUFFIX,golang.org,PROXY
+
+# > Apple
+DOMAIN,testflight.apple.com,PROXY
+
 # ---(Apple)---
 DOMAIN-SUFFIX,appsto.re,PROXY
 DOMAIN-SUFFIX,smoot.apple.com,PROXY

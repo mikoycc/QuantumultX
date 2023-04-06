@@ -151,9 +151,6 @@ IP-CIDR,203.205.254.0/23,DIRECT
 # > IP Query
 DOMAIN,ip.istatmenus.app,DIRECT
 DOMAIN,sms.imagetasks.com,DIRECT
-# > Speed Test
-DOMAIN-SUFFIX,netspeedtestmaster.com,DIRECT
-DOMAIN,speedtest.macpaw.com,DIRECT
 # > Private Tracker
 DOMAIN-SUFFIX,acg.rip,DIRECT
 DOMAIN-SUFFIX,animebytes.tv,DIRECT

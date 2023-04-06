@@ -103,11 +103,6 @@ host-suffix,163yun.com,DIRECT
 host-suffix,lofter.com,DIRECT
 host-suffix,netease.com,DIRECT
 host-suffix,ydstatic.com,DIRECT
-#酷我酷狗
-host-suffix,tencentmusic.com,DIRECT
-host-suffix,kuwo.cn,DIRECT
-host-suffix,sycdn.kuwo.cn,DIRECT
-host-suffix,kg.qq.com,DIRECT
 # 新浪
 host-suffix,sina.com,DIRECT
 host-suffix,weibo.com,DIRECT

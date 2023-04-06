@@ -1,6 +1,6 @@
 /*
 爱企查vip
-^https:\//aiqicha.baidu.com\/usercenter\/getvipinfoajax url script-response-body 
+^https:\//aiqicha.baidu.com\/usercenter\/getvipinfoajax url script-response-body https://raw.githubusercontent.com/mikoycc/QuantumultX/main/FX/AiQiCha/aqc.js
 mitm= aiqicha.baidu.com
 */
 

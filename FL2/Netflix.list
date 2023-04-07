@@ -1,6 +1,15 @@
 # Netflix
-# 2023-03-31
 # 原地址：https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Netflix/Netflix.list
+# UPDATED: 2023-04-07 14:50:22
+
+# HOST: 3
+# HOST-KEYWORD: 4
+# HOST-SUFFIX: 28
+# HOST-WILDCARD: 1
+# IP-CIDR: 990
+# IP6-CIDR: 4
+# USER-AGENT: 1
+# TOTAL: 1031
 
 HOST,e13252.dscg.akamaiedge.net,Netflix
 HOST,h-netflix.online-metrix.net,Netflix

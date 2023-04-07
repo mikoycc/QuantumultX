@@ -450,3 +450,4 @@ host-suffix,zealer.com,DIRECT
 host-suffix,zgslb.net,DIRECT
 host-suffix,zmz002.com,DIRECT
 host-suffix,zimuzu.tv,DIRECT
+geoip, cn, direct

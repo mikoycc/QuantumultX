@@ -1,6 +1,6 @@
 # Privacy,隐私保护
 # 2021-12-31
-# 原地址：https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Privacy.list
+# 原地址：https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/Guard/Privacy.list
 
 DOMAIN-SUFFIX,adjust.com,REJECT
 DOMAIN-SUFFIX,airpr.com,REJECT

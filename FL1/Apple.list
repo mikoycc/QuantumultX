@@ -1,5 +1,7 @@
 # Apple
+# 2022-02-12
 # 原地址：https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/Extra/Apple/Apple.list
+
 DOMAIN-SUFFIX,aaplimg.com,Apple
 DOMAIN-SUFFIX,apple.co,Apple
 DOMAIN-SUFFIX,apple.com,Apple

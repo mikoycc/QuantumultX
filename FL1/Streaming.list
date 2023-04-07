@@ -1,6 +1,14 @@
 # Streaming，国际流媒体
-# 2023-03-26
-# 原地址：https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/GlobalMedia/GlobalMedia.list
+# REPO:https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/GlobalMedia/GlobalMedia.list
+# UPDATED: 2023-04-07 14:50:21
+# HOST: 28
+# HOST-KEYWORD: 24
+# HOST-SUFFIX: 1086
+# HOST-WILDCARD: 10
+# IP-CIDR: 918
+# IP6-CIDR: 6
+# USER-AGENT: 56
+# TOTAL: 2128
 
 HOST,api.okzy.tv,Streaming
 HOST,apm-misaka.biliapi.net,Streaming

@@ -2454,7 +2454,7 @@ HOST-SUFFIX,oneyac.com,DIRECT
 HOST-SUFFIX,onlinedown.net,DIRECT
 HOST-SUFFIX,onlinesjtu.com,DIRECT
 HOST-SUFFIX,onlylady.com,DIRECT
-HOST-SUFFIX,ooklaserver.net,DIRECT
+#HOST-SUFFIX,ooklaserver.net,DIRECT
 HOST-SUFFIX,opdown.com,DIRECT
 HOST-SUFFIX,open.cd,DIRECT
 HOST-SUFFIX,openapp.run,DIRECT

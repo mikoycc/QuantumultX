@@ -1,4 +1,5 @@
 # 原地址：https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/China.list
+#        https://github.com/sve1r/Rules-For-Quantumult-X/blob/develop/Rules/Region/China.list
 
 user-agent, %E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*,DIRECT
 user-agent,%E5%8D%B3%E5%88%BB*,DIRECT

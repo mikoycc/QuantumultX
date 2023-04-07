@@ -1,4 +1,6 @@
-# Global list 仍然处于持续更新中
+# Global 
+# 原地址：https://github.com/sve1r/Rules-For-Quantumult-X/blob/develop/Rules/Region/Global.list
+#        https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/Global.list
 
 host-suffix,appledaily.com,PROXY
 host-suffix,appspot.com,PROXY

@@ -2447,7 +2447,7 @@ HOST-SUFFIX,oneyac.com,China
 HOST-SUFFIX,onlinedown.net,China
 HOST-SUFFIX,onlinesjtu.com,China
 HOST-SUFFIX,onlylady.com,China
-HOST-SUFFIX,ooklaserver.net,China
+#HOST-SUFFIX,ooklaserver.net,China
 HOST-SUFFIX,opdown.com,China
 HOST-SUFFIX,open.cd,China
 HOST-SUFFIX,openapp.run,China

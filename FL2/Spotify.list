@@ -1,8 +1,8 @@
 # > Spotify
-USER-AGENT,Spotify*
-DOMAIN-SUFFIX,pscdn.co
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,spotify.com
-DOMAIN-SUFFIX,spoti.fi
-DOMAIN-KEYWORD,spotify.com
-DOMAIN-KEYWORD,-spotify-com
+USER-AGENT,Spotify*,Spotify
+DOMAIN-SUFFIX,pscdn.co,Spotify
+DOMAIN-SUFFIX,scdn.co,Spotify
+DOMAIN-SUFFIX,spotify.com,Spotify
+DOMAIN-SUFFIX,spoti.fi,Spotify
+DOMAIN-KEYWORD,spotify.com,Spotify
+DOMAIN-KEYWORD,-spotify-com,Spotify

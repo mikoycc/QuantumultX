@@ -1,7 +1,6 @@
 # Unbreak,规则修正
 # REPO：https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/Unbreak.list
 
-# Unbreak
 # > General
 DOMAIN,app.adjust.com,DIRECT
 DOMAIN,app.appsflyer.com,DIRECT

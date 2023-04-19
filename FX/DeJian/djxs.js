@@ -15,7 +15,7 @@ TG频道群：https://t.me/py996
 
 [rewrite_local]
 
-^http[s]?:\/\/dj.palmestore.com\/zyuc\/api\/user\/accountInfo url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/djxs.js
+^http[s]?:\/\/dj.palmestore.com\/zyuc\/api\/user\/accountInfo url script-response-body https://raw.githubusercontent.com/mikoycc/QuantumultX/main/FX/DeJian/djxs.js
 
 [mitm] 
 

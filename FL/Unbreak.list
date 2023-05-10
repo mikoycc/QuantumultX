@@ -1,37 +1,37 @@
 # > General
-DOMAIN,app.adjust.com
-DOMAIN,app.appsflyer.com
-DOMAIN,bdtj.tagtic.cn
+DOMAIN,app.adjust.com,direct
+DOMAIN,app.appsflyer.com,direct
+DOMAIN,bdtj.tagtic.cn,direct
 # > Alibaba
-DOMAIN,log.mmstat.com
-DOMAIN,sycm.mmstat.com
+DOMAIN,log.mmstat.com,direct
+DOMAIN,sycm.mmstat.com,direct
 # > Google
-DOMAIN-SUFFIX,blog.google // Google Blog
-DOMAIN-SUFFIX,googletraveladservices.com // Google Flights
-DOMAIN,clientservices.googleapis.com
-DOMAIN,update.googleapis.com
-DOMAIN,dl.google.com
-DOMAIN,dl.l.google.com
-DOMAIN,update.googleapis.com
+DOMAIN-SUFFIX,blog.google,direct
+DOMAIN-SUFFIX,googletraveladservices.com,direct
+DOMAIN,clientservices.googleapis.com,direct
+DOMAIN,update.googleapis.com,direct
+DOMAIN,dl.google.com,direct
+DOMAIN,dl.l.google.com,direct
+DOMAIN,update.googleapis.com,direct
 # >> Firebase Cloud Messaging
-DOMAIN,mtalk.google.com
-DOMAIN,alt1-mtalk.google.com
-DOMAIN,alt2-mtalk.google.com
-DOMAIN,alt3-mtalk.google.com
-DOMAIN,alt4-mtalk.google.com
-DOMAIN,alt5-mtalk.google.com
-DOMAIN,alt6-mtalk.google.com
-DOMAIN,alt7-mtalk.google.com
-DOMAIN,alt8-mtalk.google.com
+DOMAIN,mtalk.google.com,direct
+DOMAIN,alt1-mtalk.google.com,direct
+DOMAIN,alt2-mtalk.google.com,direct
+DOMAIN,alt3-mtalk.google.com,direct
+DOMAIN,alt4-mtalk.google.com,direct
+DOMAIN,alt5-mtalk.google.com,direct
+DOMAIN,alt6-mtalk.google.com,direct
+DOMAIN,alt7-mtalk.google.com,direct
+DOMAIN,alt8-mtalk.google.com,direct
 # >> Paramount+
-# DOMAIN,pubads.g.doubleclick.net
+# DOMAIN,pubads.g.doubleclick.net,direct
 # > Tencent
-DOMAIN,fairplay.l.qq.com
-DOMAIN,livew.l.qq.com
-DOMAIN,vd.l.qq.com
-DOMAIN,vi.l.qq.com
+DOMAIN,fairplay.l.qq.com,direct
+DOMAIN,livew.l.qq.com,direct
+DOMAIN,vd.l.qq.com,direct
+DOMAIN,vi.l.qq.com,direct
 # > Strava
-DOMAIN,analytics.strava.com
+DOMAIN,analytics.strava.com,direct
 # > Umeng
-DOMAIN,msg.umeng.com
-DOMAIN,msg.umengcloud.com
+DOMAIN,msg.umeng.com,direct
+DOMAIN,msg.umengcloud.com,direct

@@ -1,6 +1,3 @@
-# Hijacking,运营商劫持
-# REPO：https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/Guard/Hijacking.list
-
 # Internet Service Providers Hijacking
 DOMAIN-SUFFIX,17gouwuba.com,REJECT
 DOMAIN-SUFFIX,186078.com,REJECT

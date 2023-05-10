@@ -1,9 +1,5 @@
-# Instagram
-# 原地址：https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Instagram/Instagram.list
+# REPO: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Instagram/Instagram.list
 # UPDATED: 2023-04-07 14:50:24
-# HOST-KEYWORD: 1
-# HOST-SUFFIX: 73
-# TOTAL: 74
 
 HOST-SUFFIX,achat-followers-instagram.com,Instagram
 HOST-SUFFIX,acheter-followers-instagram.com,Instagram

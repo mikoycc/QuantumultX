@@ -1,6 +1,4 @@
 # Privacy,隐私保护
-# 原地址：https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/Guard/Privacy.list
-
 DOMAIN-SUFFIX,adjust.com,REJECT
 DOMAIN-SUFFIX,airpr.com,REJECT
 DOMAIN-SUFFIX,cr-nielsen.com,REJECT

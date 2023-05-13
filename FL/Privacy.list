@@ -1,4 +1,5 @@
-# Privacy,隐私保护
+# Privacy,隐私保护，拒绝
+
 DOMAIN-SUFFIX,adjust.com,REJECT
 DOMAIN-SUFFIX,airpr.com,REJECT
 DOMAIN-SUFFIX,cr-nielsen.com,REJECT

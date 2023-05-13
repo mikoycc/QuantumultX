@@ -70,7 +70,6 @@ DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN-SUFFIX,google-analytics.com,REJECT
 DOMAIN,safebrowsing.googleapis.com,REJECT
 # > GozenData
-# https://www.v2ex.com/t/772523,REJECT
 DOMAIN-SUFFIX,gozendata.com,REJECT
 DOMAIN-SUFFIX,gzads.com,REJECT
 DOMAIN-SUFFIX,gz-data.com,REJECT
@@ -79,7 +78,6 @@ DOMAIN-SUFFIX,giocdn.com,REJECT
 DOMAIN-SUFFIX,growingio.com,REJECT
 # > MI
 DOMAIN-SUFFIX,tracking.miui.com,REJECT
-# DOMAIN,api.miwifi.com // 影响 Mi Wi-Fi(id859962702)，但建议注意 https://www.v2ex.com/t/746094
 DOMAIN,data.mistat.xiaomi.com,REJECT
 DOMAIN,tracking.intl.miui.com,REJECT
 # > TalkingData

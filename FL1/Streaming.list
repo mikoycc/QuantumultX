@@ -280,7 +280,7 @@ DOMAIN-SUFFIX,sndcdn.com,Streaming
 DOMAIN-SUFFIX,soundcloud.com,Streaming
 
 # > TikTok
-DOMAIN,p16-tiktokcdn-com.akamaized.net,Streaming
+HOST,p16-tiktokcdn-com.akamaized.net,Streaming
 DOMAIN-SUFFIX,byteoversea.com,Streaming
 DOMAIN-SUFFIX,ibytedtos.com,Streaming
 DOMAIN-SUFFIX,ibyteimg.com,Streaming

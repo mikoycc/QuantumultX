@@ -297,7 +297,7 @@ DOMAIN-SUFFIX,tiktokv.com,Streaming
 DOMAIN-KEYWORD,musical.ly,Streaming
 DOMAIN-KEYWORD,tiktok,Streaming
 USER-AGENT,TikTok*,Streaming
-PROCESS-NAME,com.zhiliaoapp.musically,Streaming
+PROCESS-NAME,com.zhiliaoapp.musically
 
 # > 台湾好
 USER-AGENT,TaiwanGood*,Streaming

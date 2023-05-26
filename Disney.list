@@ -1,3 +1,4 @@
+# https://github.com/GeQ1an/Rules/blob/master/QuantumultX/Filter/Optional/Disney%20Plus.list
 USER-AGENT,Disney*,Disney+
 HOST-SUFFIX,adobedtm.com,Disney+
 HOST-SUFFIX,bam.nr-date.net,Disney+

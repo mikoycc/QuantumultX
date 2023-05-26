@@ -1,3 +1,4 @@
+# https://github.com/GeQ1an/Rules/blob/master/QuantumultX/Filter/Optional/YouTube.list
 USER-AGENT,*youtube*,YouTube
 USER-AGENT,YouTube*,YouTube
 HOST-WILDCARD,youtube.*,YouTube

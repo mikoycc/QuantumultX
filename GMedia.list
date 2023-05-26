@@ -1,6 +1,4 @@
-#GMedia国际媒体
-#出处：https://github.com/GeQ1an/Rules/blob/master/QuantumultX/Filter/GMedia.list
-
+# https://github.com/GeQ1an/Rules/blob/master/QuantumultX/Filter/GMedia.list
 # > ABC
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia

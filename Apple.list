@@ -1,3 +1,4 @@
+# https://github.com/GeQ1an/Rules/blob/master/QuantumultX/Filter/Apple.list
 # > Apple API
 HOST-KEYWORD,apple.com.akadns.net,Apple
 HOST-KEYWORD,icloud.com.akadns.net,Apple

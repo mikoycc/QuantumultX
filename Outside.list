@@ -1,6 +1,4 @@
-#境外链接
-#出处：https://github.com/GeQ1an/Rules/blob/master/QuantumultX/Filter/Outside.list
-
+# https://github.com/GeQ1an/Rules/blob/master/QuantumultX/Filter/Outside.list
 # > Blizzard
 USER-AGENT,hearthstone*,Outside
 HOST,cdp.cloud.unity3d.com,Outside

@@ -1,6 +1,4 @@
-#特殊列表
-#出处：https://github.com/GeQ1an/Rules/blob/master/QuantumultX/Filter/Special.list
-
+# https://github.com/GeQ1an/Rules/blob/master/QuantumultX/Filter/Special.list
 # > Dler Cloud
 HOST-SUFFIX,dler.cloud,DIRECT
 

@@ -1,4 +1,3 @@
-# https://github.com/GeQ1an/Rules/blob/master/QuantumultX/Filter/CMedia.list
 # > AcFun
 USER-AGENT,AcFun*,CMedia
 HOST-SUFFIX,acfun.cn,CMedia
